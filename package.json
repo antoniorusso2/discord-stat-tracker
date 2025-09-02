@@ -1,0 +1,20 @@
+{
+  "name": "discord-stat-tracker",
+  "version": "0.0.0",
+  "description": "discord bot for getting user stats about a specified game",
+  "keywords": [
+    "discord",
+    "bot",
+    "stat-tracker"
+  ],
+  "license": "ISC",
+  "author": "ntnrss",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
