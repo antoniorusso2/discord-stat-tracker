@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require("discord.js");
 
 const data = new SlashCommandBuilder()
-    .setName("stats")
+    .setName("ranked")
     .setDescription("Request all player stats for a game");
 
 async function execute(interaction) {
