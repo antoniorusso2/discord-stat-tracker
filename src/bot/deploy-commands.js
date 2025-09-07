@@ -5,7 +5,7 @@ const path = require("node:path");
 
 const commands = [];
 
-const foldersPath = path.join(__dirname, "src/commands");
+const foldersPath = path.join(__dirname, "../commands");
 const commandsFolder = fs.readdirSync(foldersPath);
 
 for (const file of commandsFolder) {
