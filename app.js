@@ -1,11 +1,5 @@
 // Require the necessary discord.js classes
-const {
-    Client,
-    Events,
-    GatewayIntentBits,
-    Collection,
-    MessageFlags,
-} = require("discord.js");
+const { Client, Events, GatewayIntentBits, Collection } = require("discord.js");
 
 const commandHandler = require("./src/Bot/commandHandler.js");
 
