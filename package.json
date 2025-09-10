@@ -14,10 +14,11 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "node --env-file=.env --watch ./app.js",
-        "start": "node --env-file=.env src/bot/deploy-commands.js",
-        "clear-commands": "node --env-file=.env clear-commands.js"
+        "start": "node --env-file=.env src/bot/deployCommands.js",
+        "clear-commands": "node --env-file=.env clearCommands.js"
     },
     "dependencies": {
+        "axios": "^1.11.0",
         "discord.js": "^14.22.1",
         "express": "^5.1.0"
     },
